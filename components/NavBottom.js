@@ -83,9 +83,9 @@ const NavBottomList = [
 const NavBottom = () => {
     return (
      <div className='relative w-[100%] top-[4rem] z-20 overflow-x-hidden
-        hover:overflow-x-auto'>    
+        hover:overflow-x-auto shadow-md shadow-black'>    
       <div className='flex w-[119rem] py-2 text-xs bg-gray-700
-         text-white z-10 shadow shadow-black justify-between items-center px-[1.5rem]'>  
+         text-white z-30 justify-between items-center px-[1.5rem]'>  
       <div className='flex justify-center gap-[1rem]'>
         {NavBottomList.map((item)=>(
           <div key={item.id} className={`flex items-center`}>

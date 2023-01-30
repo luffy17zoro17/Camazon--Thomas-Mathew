@@ -53,9 +53,9 @@ const ImageCarousal = () => {
       <div className="flex
          w-[420vw]"> 
         {ImageList.map((item)=>(
-          <div key={item.id} className={`${count===1 ? `transform translate-x-[-107vw] scroll-smooth scroll-auto
-          transition ease-out-in delay-200 duration-1000` : count===2 ? `transform translate-x-[-209vw] scroll-smooth scroll-auto
-          transition ease-out-in delay-200 duration-1000` : count === 3 ? `transform translate-x-[-312vw] scroll-smooth scroll-auto
+          <div key={item.id} className={`${count===1 ? `transform translate-x-[-108vw] scroll-smooth scroll-auto
+          transition ease-out-in delay-200 duration-1000` : count===2 ? `transform translate-x-[-211vw] scroll-smooth scroll-auto
+          transition ease-out-in delay-200 duration-1000` : count === 3 ? `transform translate-x-[-318vw] scroll-smooth scroll-auto
           transition ease-out-in delay-200 duration-1000` : `transform translate-x-[0vw] scroll-smooth scroll-auto
           transition ease-out-in delay-200 duration-1000`}`}>
           <ImageProp
@@ -63,7 +63,7 @@ const ImageCarousal = () => {
               
              iht={`11500`}
              iwd={`11500`}
-             imgclassN={`object-cover h-[48rem] w-[280rem]`}
+             imgclassN={`object-cover h-[48rem] w-[300rem]`}
              idivclassN={``}  
              ialt={item.alt}
           />

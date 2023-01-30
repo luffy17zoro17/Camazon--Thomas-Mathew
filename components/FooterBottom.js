@@ -5,7 +5,8 @@ import Link from "next/link";
 
 const FooterBottom = () => {
     return (
-      <div className="text-xs bg-black text-white flex justify-center text-gray-400 flex-col items-center">
+      <div className="text-xs bg-black text-white flex justify-center text-gray-400 flex-col items-center
+          ">
         <div className="flex gap-[4rem] justify-center flex-wrap pt-[5rem] px-[4rem]
             xl:w-[45vw]">
           <ul>
