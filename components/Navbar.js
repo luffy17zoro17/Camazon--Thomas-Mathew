@@ -17,10 +17,10 @@ const Navbar = () => {
             ">
          <TextProp title={`amazon`} titleclassN={`border-l-[0.2rem] border-pink-500
             text-pink-300 pl-1 ml-1 text-xl rounded-l-xl`}/>
-         <div className="items-center hidden lg:flex lg:pl-4">
+         <div className="items-center cursor-pointer hidden lg:flex lg:pl-4">
             <IconProp icon={<FmdGoodIcon/>}/>
             <TextProp title={`Hello`} titleclassN={`text-xs`} details={`Select your address`}
-                 detailclassN={`font-bold`}/>
+                 detailclassN={`font-bold hover:underline`}/>
          </div>
         </div> 
         
@@ -30,7 +30,7 @@ const Navbar = () => {
           rounded-xl w-[34vw] xl:w-[44vw]">
          <div className="flex items-center hidden lg:flex">    
            <TextProp title={`All`} titleclassN={`px-1 text-xs`}/>
-           <IconProp icon={<KeyboardArrowDownIcon/>}/>   
+           <IconProp icoclassN={`cursor-pointer`} icon={<KeyboardArrowDownIcon/>}/>   
          </div> 
          <InputProp
           inclassN={`w-[55vw] py-1 px-2 rounded-xl outline-none text-black
@@ -38,26 +38,27 @@ const Navbar = () => {
            md:w-[28vw] lg:w-[24vw] xl:w-[36vw]`}
           inplaceholder={`Search Camazon`}
          />
-         <IconProp icoclassN={`pl-[0.5vw]`} icon={<SearchIcon/>}/>
+         <IconProp icoclassN={`pl-[0.5vw] cursor-pointer`} icon={<SearchIcon/>}/>
         </div>
        
 
 
        <div className="flex items-center absolute right-[1vw] gap-[1vw]"> 
-        <div className="hidden items-center lg:flex">
+        <div className="hidden items-center cursor-pointer lg:flex">
           <IconProp icon={<TourIcon/>}/>
           <TextProp title={`EN`}/>
           <IconProp icon={<KeyboardArrowDownIcon/>}/>
         </div>
 
-        <div className="flex items-end pr-1">
-           <TextProp title={`Hello, sign in`} detailclassN={`font-bold`} details={`Account & Lists`}/>
+        <div className="flex items-end pr-1 cursor-pointer">
+           <TextProp title={`Hello, sign in`} detailclassN={`font-bold hover:underline`} details={`Account & Lists`}/>
            <IconProp icon={<KeyboardArrowDownIcon/>}/> 
         </div>
 
-        <TextProp title={`Returns`} detailclassN={`font-bold`} details={`& Orders`} tdivclassN={`hidden xl:block`}/>
+        <TextProp title={`Returns`} detailclassN={`font-bold hover:underline cursor-pointer`}
+         details={`& Orders`} tdivclassN={`hidden xl:block`}/>
         
-        <div className="flex items-end hidden md:flex md:pr-2">
+        <div className="flex items-end hidden cursor-pointer md:flex md:pr-2">
            <IconProp icon={<ShoppingCartIcon/>}/> 
            <TextProp title={`Cart`} titleclassN={`font-bold`}/>
         </div>

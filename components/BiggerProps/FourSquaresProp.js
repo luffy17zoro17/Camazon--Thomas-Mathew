@@ -10,6 +10,7 @@ const FourSquaresProp = ({title,titleOne,titleTwo,titleThree,titleFour,
        }) => {
     return (
      <div className="relative bg-white shadow shadow-black
+      rounded-lg
       w-[21rem] justify-center gap-4 p-3">
        <div className="pb-[3rem]">
         <TextProp title={title} titleclassN={`p-3 font-semibold text-xl`}/>

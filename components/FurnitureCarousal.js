@@ -146,10 +146,10 @@ const FurnitureCarousal = () => {
        </div>       
 
     <div className="flex justify-center items-center">  
-     <div className={furniture===0 ? `flex justify-center relative pt-[1rem] pb-[2rem] items-center border-x-[1.6rem]
+     <div className={`shadow shadow-black rounded ${furniture===0 ? `flex justify-center relative pt-[1rem] pb-[2rem] items-center border-x-[1.6rem]
       border-white w-[75vw] overflow-x-hidden hover:overflow-x-auto bg-white my-[1rem]` : 
       `flex justify-center relative pt-[1rem] pb-[2rem] items-center border-x-[1.6rem]
-      border-white w-[75vw] bg-white my-[1rem] overflow-x-auto xl:overflow-x-hidden`}>   
+      border-white w-[75vw] bg-white my-[1rem] overflow-x-auto xl:overflow-x-hidden`}`}>   
 
      <div className={`${furniture===0 ? `hover:overflow-x-auto overflow-x-hidden w-[75vw] 
        border-x-[1.6rem] border-white bg-white` : `overflow-x-hidden w-[75vw] 

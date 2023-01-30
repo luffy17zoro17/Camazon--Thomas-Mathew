@@ -4,7 +4,8 @@ import TextProp from "./props/TextProp";
 
 const PersonalisedRecommendations = () => {
     return (
-     <div className="flex justify-center text-center bg-white mt-5 flex-col">   
+     <div className="flex justify-center text-center bg-white mt-5 flex-col rounded-t-lg
+       shadow-md shadow-black border-t border-black">   
       <div className="border rounded-md my-4 w-full flex justify-center">
        <div className="w-[15rem]"> 
         <div className="space-y-2">
@@ -14,13 +15,13 @@ const PersonalisedRecommendations = () => {
             details={`Sign In`}
             detailclassN={`px-4 py-[0.4rem] rounded-md font-bold text-xs
              bg-gradient-to-t from-yellow-400 via-orange-300 to-yellow-300
-             border border-orange-400`}
+             border border-orange-400 shadow cursor-pointer`}
          />
          <div className="">
             <TextProp 
               title={`New customer?`}
               details={`Start here.`}
-              detailclassN={`text-cyan-600`}
+              detailclassN={`text-cyan-600 cursor-pointer`}
               tdivclassN={`flex text-xs justify-center pb-2 gap-1`}
               
             />

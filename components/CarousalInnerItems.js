@@ -9,7 +9,7 @@ const CarousalInnerItems = () => {
     return (
   
      <div className="flex 
-       mt-[-30rem]
+       mt-[-30.5rem]
        w-screen justify-center"> 
       <div className="flex gap-[1vw] flex-wrap justify-center
         ">

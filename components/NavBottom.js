@@ -89,13 +89,15 @@ const NavBottom = () => {
       <div className='flex justify-center gap-[1rem]'>
         {NavBottomList.map((item)=>(
           <div key={item.id} className={`flex items-center`}>
-            <TextProp title={item.title} titleclassN={item.id===1 ? `pl-10 font-medium` : ``}/>
-            <IconProp icon={item.icon} icoclassN={item.id===1 ? `absolute` : ``}/>
+            <TextProp title={item.title} titleclassN={item.id===1 ? `pl-10 font-medium cursor-pointer hover:text-yellow-300` 
+            : `cursor-pointer hover:underline hover:text-yellow-300`}/>
+            <IconProp icon={item.icon} icoclassN={item.id===1 ? `absolute cursor-pointer` : `cursor-pointer`}/>
           </div>    
         ))}
       </div>  
       <TextProp
          details={`Watch One piece Red, the new movie for free on ciniTv`}
+         detailclassN={`cursor-pointer hover:underline hover:text-red-300`}
        />
       </div>
      </div> 

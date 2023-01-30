@@ -186,7 +186,7 @@ const TodaysDeals = () => {
     </div>    
     <div className="flex justify-center relative py-[1rem] items-center">    
 
-     <div className={`
+     <div className={`shadow shadow-black rounded
        ${deal===0 ? `hover:overflow-x-auto overflow-x-hidden w-[75vw] 
        border-x-[1.6rem] border-white bg-white` : `overflow-x-hidden w-[75vw] 
        border-x-[1.6rem] border-white bg-white`}`}>  
