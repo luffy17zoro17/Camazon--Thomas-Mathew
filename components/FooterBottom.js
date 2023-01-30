@@ -1,5 +1,5 @@
 import TextProp from "./props/TextProp";
-
+import Link from "next/link";
 
 
 
@@ -70,6 +70,9 @@ const FooterBottom = () => {
            <TextProp title={`Interest-Based Ads`} />
           </div> 
           <TextProp title={`© 1996-2023, Camazon.com, Inc. or its affiliates`}/>
+          <Link className="text-lg text-green-300" href={`https://www.linkedin.com/in/thomas-mathew-b26b87253/`}>
+            Created by&nbsp;---{`>`} <b className="text-purple-500 hover:underline
+              hover:font-mono hover:text-red-400">Thomas Mathew</b></Link>
         </div>
       </div>  
     );
