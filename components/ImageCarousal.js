@@ -79,7 +79,7 @@ const ImageCarousal = () => {
         
        
        
-       /** plan on adding effects later */
+       {/** plan on adding effects later */}
         <div className={`   
              ${count===0 ? `bg-gradient-to-t from-gray-200 via-bg-gray-200 to-transparent  
                absolute top-0 bottom-0 w-full h-[50rem]` : ``}
