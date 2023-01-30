@@ -14,7 +14,7 @@ const BodySquares2 = () => {
            title={`Up to 60% off | Fitness essentials to set up your home`}
            isrc={`https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1970&q=80`}
            bottomTitle={`See all`}
-           imgclassN={`object-cover h-[19rem] w-[19rem] mb-2`}
+           imgclassN={`object-cover h-[19.7rem] w-[19rem] mb-2`}
            
         />
         
@@ -37,7 +37,7 @@ const BodySquares2 = () => {
            title={`Discover your home`}
            isrc={`https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80`}
            bottomTitle={`See all`}
-           imgclassN={`object-cover h-[21rem] w-[19rem] mb-2`}
+           imgclassN={`object-cover h-[23.3rem] w-[19rem] mb-2`}
            
         />
 

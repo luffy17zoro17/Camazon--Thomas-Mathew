@@ -7,6 +7,7 @@ const BodySquaresProp = ({title,titleOne,titleTwo,titleThree,titleFour,isrcOne,i
                          titleThreeSec,titleFourSec,isrcOneSec,isrcTwoSec,isrcThreeSec,
                         isrcFourSec,titleThird,titleOneThird,titleTwoThird,titleThreeThird,
                         titleFourThird,isrcOneThird,isrcTwoThird,isrcThreeThird,isrcFourThird,
+                        imgclassN
                         }) => {
     return (
      
@@ -32,7 +33,7 @@ const BodySquaresProp = ({title,titleOne,titleTwo,titleThree,titleFour,isrcOne,i
            title={singleTitle}
            isrc={singleiSrc}
            bottomTitle={`See all`}
-           imgclassN={`object-cover h-[18rem] w-[19rem] mb-2`}
+           imgclassN={imgclassN}
            
         />
 

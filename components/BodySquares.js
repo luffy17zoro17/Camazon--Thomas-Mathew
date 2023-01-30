@@ -9,7 +9,7 @@ import BodySquaresProp from "./BiggerProps/BodySquaresProp";
 
 const BodySquares = () => {
     return (
-     <div> 
+     <div className=""> 
       <div className="flex justify-center">
         <BodySquaresProp
             title={`Automotive essentials | Up to 60% off`}
@@ -22,6 +22,7 @@ const BodySquares = () => {
             isrcThree={`https://images.unsplash.com/photo-1627530980937-b8721b91506a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80`}
             isrcFour={`https://images.pexels.com/photos/6196233/pexels-photo-6196233.jpeg`}
             singleTitle={`For all birthday gifting and celebration needs`}
+            imgclassN={`object-cover h-[20.5rem] w-[19rem] mb-2`}
             singleiSrc={`https://images.pexels.com/photos/11689199/pexels-photo-11689199.jpeg`}
             titleSec={`Shop by Category`}
             titleOneSec={`Fresh`}

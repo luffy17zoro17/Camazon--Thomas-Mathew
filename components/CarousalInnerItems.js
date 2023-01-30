@@ -17,7 +17,7 @@ const CarousalInnerItems = () => {
            title={`Products by Amazing Karigiriwallahs`}
            isrc={`https://images.unsplash.com/photo-1652598631616-3f5f4d2cfbd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80`}
            bottomTitle={`See all`}
-           imgclassN={`object-cover h-[18rem] w-[19rem] mb-2`}
+           imgclassN={`object-cover h-[20.5rem] w-[19rem] mb-2`}
            
         />
         <FourSquaresProp

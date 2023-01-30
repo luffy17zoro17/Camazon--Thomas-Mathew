@@ -5,7 +5,7 @@ import TextProp from "../props/TextProp";
 
 const ProductsCarousalProp = ({isrcProd,titleBottom,detailsBottom,ialt,titleclassN,imgclassN}) => {
     return (
-      <div>
+      <div className="shadow shadow-black">
   
         <ImageProp isrc={isrcProd} iht={`700`} iwd={`700`} imgclassN={imgclassN} ialt={ialt}/>
         <TextProp title={titleBottom} details={detailsBottom} titleclassN={titleclassN}

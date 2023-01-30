@@ -25,6 +25,7 @@ const BodySquares3 = () => {
             isrcThree={`https://images.unsplash.com/photo-1626581807509-9fed47936ec3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80`}
             isrcFour={`https://images.pexels.com/photos/13251232/pexels-photo-13251232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
             singleTitle={`Sell on Amazon with 1-Click Launch Support`}
+            imgclassN={`object-cover h-[22.2rem] w-[19rem] mb-2`}
             singleiSrc={`https://images.pexels.com/photos/5025646/pexels-photo-5025646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
             titleSec={`Shop for your baby by age`}
             titleOneSec={`0-6 months`}

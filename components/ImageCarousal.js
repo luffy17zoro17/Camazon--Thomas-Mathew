@@ -97,13 +97,13 @@ const ImageCarousal = () => {
            flex justify-center w-full left-0">
           <ButtonProp bfunc={()=>dispatch(decrement())} 
           icon={<KeyboardDoubleArrowLeftIcon/>}
-          bclassN={`scale-[3.5] shadow-sm shadow-cyan-400
-           hover:shadow-orange-300 hover:text-orange-400 rounded-l-full`}
+          bclassN={`scale-[2.5] lg:scale-[3.5]
+           hover:text-orange-400`}
           />
           <ButtonProp bfunc={()=>dispatch(increment())} 
           icon={<KeyboardDoubleArrowRightIcon/>}
-          bclassN={`scale-[3.5] shadow-sm shadow-cyan-400 
-          hover:shadow-orange-300 hover:text-orange-400 rounded-r-full`}
+          bclassN={`scale-[2.5] lg:scale-[3.5] 
+             hover:text-orange-400`}
           />
         </div>
       </div>  

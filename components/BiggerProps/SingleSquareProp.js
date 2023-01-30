@@ -7,7 +7,7 @@ import TextProp from "../props/TextProp";
 const SingleSquareProp = ({title,titleclassN,isrc,imgclassN,bottomTitle,
                           squareclassN}) => {
     return (
-        <div className="relative bg-white
+        <div className="relative bg-white shadow shadow-black
          w-[21rem] justify-center gap-4
         p-3">
           <div>
@@ -25,7 +25,8 @@ const SingleSquareProp = ({title,titleclassN,isrc,imgclassN,bottomTitle,
              </div>
            </div>
           </div>
-          <TextProp title={bottomTitle} titleclassN={`text-[0.85rem] text-cyan-500 absolute bottom-5 px-[0.5vw]`}/>
+          <TextProp title={bottomTitle} 
+          titleclassN={`text-[0.85rem] text-cyan-500 pl-[0.5rem] pt-2`}/>
         </div>   
     );
 }
