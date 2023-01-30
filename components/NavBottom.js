@@ -12,7 +12,7 @@ const NavBottomList = [
     },
     {
         id:2,
-        title:"Amazon miniTV",
+        title:"Camazon ciniTV",
         icon:'',
     },
     {
@@ -57,7 +57,7 @@ const NavBottomList = [
     },
     {
         id:11,
-        title:"Amazon Pay",
+        title:"Camazon Pay",
         icon:'',
     },
     {
@@ -95,7 +95,7 @@ const NavBottom = () => {
         ))}
       </div>  
       <TextProp
-         details={`Watch One piece Red, the new movie for free on miniTv`}
+         details={`Watch One piece Red, the new movie for free on ciniTv`}
        />
       </div>
      </div> 

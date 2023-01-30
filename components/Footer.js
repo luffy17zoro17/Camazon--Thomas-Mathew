@@ -18,7 +18,7 @@ const Footer = () => {
              <li>About Us</li>
              <li>Careers</li>
              <li>Press Releases</li>
-             <li>Amazon Science</li>
+             <li>Camazon Science</li>
            </ul>
            <ul className="space-y-2">
              <TextProp title={`Connect with Us`} titleclassN={`text-[0.9rem] font-bold text-white`}/>
