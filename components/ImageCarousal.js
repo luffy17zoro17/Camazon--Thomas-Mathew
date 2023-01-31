@@ -102,7 +102,7 @@ const ImageCarousal = () => {
            h-[5rem] w-[1.8rem] rounded-l-full border-l-[0.6rem] border-yellow-400
            shadow-lg shadow-black hover:shadow-xl hover:shadow-black
            hover:border-cyan-400
-           active:shadow-none`}
+           active:shadow-sm`}
           />
           <ButtonProp bfunc={()=>dispatch(increment())} 
          
@@ -110,7 +110,7 @@ const ImageCarousal = () => {
           h-[5rem] w-[1.8rem] rounded-r-full border-r-[0.6rem] border-yellow-400
           shadow-lg shadow-black hover:shadow-xl hover:shadow-black
           hover:border-cyan-400
-          active:shadow-none`}
+          active:shadow-sm`}
           />
         </div>
       </div>  
