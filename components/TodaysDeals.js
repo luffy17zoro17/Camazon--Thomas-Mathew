@@ -211,7 +211,7 @@ const TodaysDeals = () => {
               titleBottom={item.titleBottom}
               isrcProd={item.isrcProd}
               ialt={item.ialt}
-              imgclassN={`h-[10rem] w-[10rem] object-cover`}
+              imgclassN={`h-[10rem] w-[10rem] object-cover shadow shadow-black`}
               detailsBottom={item.details}
               titleclassN={`flex font-light rounded-sm px-1
               bg-red-400 py-1 my-2 mr-2`}

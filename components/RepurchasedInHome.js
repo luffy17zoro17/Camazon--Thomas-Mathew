@@ -146,7 +146,7 @@ const RepurchasedInHome = () => {
             {RepurchasedList.map((item)=>(
             <div key={item.id} className={``}>  
             <ProductsCarousalProp 
-                imgclassN={`h-[10rem] w-[10rem] object-contain`}   
+                imgclassN={`h-[10rem] w-[10rem] object-contain shadow shadow-black`}   
                 isrcProd={item.isrcProd}
                 ialt={item.ialt}
             />

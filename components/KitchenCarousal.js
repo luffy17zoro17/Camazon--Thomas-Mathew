@@ -145,7 +145,7 @@ const KitchenCarousal = () => {
             {RepurchasedList.map((item)=>(
             <div key={item.id} className={``}>  
             <ProductsCarousalProp 
-                imgclassN={`h-[10rem] w-[10rem] object-cover`}   
+                imgclassN={`h-[10rem] w-[10rem] object-cover shadow shadow-black`}   
                 isrcProd={item.isrcProd}
                 ialt={item.ialt}
             />

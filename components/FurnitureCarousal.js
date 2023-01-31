@@ -161,8 +161,7 @@ const FurnitureCarousal = () => {
 
       <div className={`bg-white pb-[2rem] h-[15rem]`}>
       
-          <div className={`flex gap-[1.5vw] absolute mt-[5rem]
-            ${(furniture ===0) ? (`transform translate-x-[0rem] scroll-smooth scroll-auto
+          <div className={`flex gap-[1.5vw] absolute mt-[5rem]            ${(furniture ===0) ? (`transform translate-x-[0rem] scroll-smooth scroll-auto
             transition ease-out-in delay-200 duration-1000`) : furniture===1 ? (`transform translate-x-[-80rem] scroll-smooth scroll-auto
              transition ease-in-out delay-200 duration-1000`) : (furniture===0) ? `transform translate-x-[80rem] scroll-smooth scroll-auto
              transition ease-in-out delay-200 duration-1000` : (furniture===2) ? `transform translate-x-[-160rem] scroll-smooth scroll-auto
@@ -175,13 +174,12 @@ const FurnitureCarousal = () => {
              `}>  
           <ProductsCarousalProp         
               isrcProd={item.isrcProd}
-              imgclassN={`
-              
+              imgclassN={`   
               ${(item.id===7 || item.id===8 || item.id===9 || 
                  item.id===10 || item.id===12) 
-                ? `object-cover h-[10rem]` : `object-contain`}`}
+                ? `object-cover h-[9.7rem] shadow shadow-black` : `shadow shadow-black 
+                  object-contain`}`}
               ialt={item.ialt}
-
           />
           </div>
           ))}
