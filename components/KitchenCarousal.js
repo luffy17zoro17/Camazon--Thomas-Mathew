@@ -126,8 +126,8 @@ const KitchenCarousal = () => {
               />
         </div> 
         <div className="flex justify-center relative items-center">    
-        <div className={`shadow shadow-black rounded ${repur===0 ? `hover:overflow-x-auto overflow-x-hidden w-[75vw] 
-       border-x-[1.6rem] border-white bg-white` : `overflow-x-hidden w-[75vw] 
+        <div className={`shadow shadow-black rounded ${repur===0 ? `overflow-x-scroll w-[75vw] 
+       border-x-[1.6rem] border-white bg-white lg:overflow-x-hidden lg:hover:overflow-x-scroll` : `overflow-x-hidden w-[75vw] 
        border-x-[1.6rem] border-white bg-white`}`}>  
 
         <div className="bg-white pb-[2rem] mt-[6rem]">

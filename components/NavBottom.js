@@ -83,7 +83,9 @@ const NavBottomList = [
 const NavBottom = () => {
     return (
      <div className='relative w-[100%] top-[4rem] z-20 overflow-x-hidden
-        hover:overflow-x-auto shadow-md shadow-black'>    
+         overflow-x-scroll shadow-md shadow-black 
+         lg:overflow-x-hidden
+         lg:hover:overflow-x-auto'>    
       <div className='flex w-[119rem] py-2 text-xs bg-gray-700
          text-white z-30 justify-between items-center px-[1.5rem]'>  
       <div className='flex justify-center gap-[1rem]'>

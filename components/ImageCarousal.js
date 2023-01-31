@@ -96,14 +96,19 @@ const ImageCarousal = () => {
         <div className="absolute top-[8rem] flex z-20 gap-[50vw] text-green-400
            flex justify-center w-full left-0">
           <ButtonProp bfunc={()=>dispatch(decrement())} 
-          icon={<KeyboardDoubleArrowLeftIcon/>}
-          bclassN={`scale-[2.5] lg:scale-[3.5]
-           hover:text-orange-400`}
+         
+          bclassN={`
+          bg-gradient-to-r from-green-400 via-black to-red-400
+           h-[5rem] w-[1.8rem] rounded-l-full border-l-[0.6rem] border-white
+           shadow-lg shadow-black hover:shadow-xl hover:shadow-black
+           active:shadow-none`}
           />
           <ButtonProp bfunc={()=>dispatch(increment())} 
-          icon={<KeyboardDoubleArrowRightIcon/>}
-          bclassN={`scale-[2.5] lg:scale-[3.5] 
-             hover:text-orange-400`}
+         
+          bclassN={`bg-gradient-to-r from-red-400 via-black to-green-400
+          h-[5rem] w-[1.8rem] rounded-r-full border-r-[0.6rem] border-white
+          shadow-lg shadow-black hover:shadow-xl hover:shadow-black
+          active:shadow-none`}
           />
         </div>
       </div>  
