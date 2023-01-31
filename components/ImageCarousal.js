@@ -98,16 +98,18 @@ const ImageCarousal = () => {
           <ButtonProp bfunc={()=>dispatch(decrement())} 
          
           bclassN={`
-          bg-gradient-to-r from-green-400 via-black to-red-400
-           h-[5rem] w-[1.8rem] rounded-l-full border-l-[0.6rem] border-white
+        
+           h-[5rem] w-[1.8rem] rounded-l-full border-l-[0.6rem] border-yellow-400
            shadow-lg shadow-black hover:shadow-xl hover:shadow-black
+           hover:border-cyan-400
            active:shadow-none`}
           />
           <ButtonProp bfunc={()=>dispatch(increment())} 
          
-          bclassN={`bg-gradient-to-r from-red-400 via-black to-green-400
-          h-[5rem] w-[1.8rem] rounded-r-full border-r-[0.6rem] border-white
+          bclassN={`
+          h-[5rem] w-[1.8rem] rounded-r-full border-r-[0.6rem] border-yellow-400
           shadow-lg shadow-black hover:shadow-xl hover:shadow-black
+          hover:border-cyan-400
           active:shadow-none`}
           />
         </div>
