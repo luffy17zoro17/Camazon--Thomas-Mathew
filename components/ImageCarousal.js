@@ -3,8 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import ButtonProp from "./props/ButtonProp";
 import ImageProp from "./props/ImageProp";
 
-import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
+
 import TextProp from "./props/TextProp";
 
 import CarousalInnerItems from "./CarousalInnerItems";
@@ -99,18 +98,20 @@ const ImageCarousal = () => {
          
           bclassN={`
         
-           h-[5rem] w-[1.8rem] rounded-l-full border-l-[0.6rem] border-yellow-400
+           h-[2rem] rounded-l-full border-l-[1.9rem]
+            border-yellow-400
            shadow-lg shadow-black hover:shadow-xl hover:shadow-black
            hover:border-cyan-400
-           active:shadow-sm`}
+           active:shadow-none`}
           />
           <ButtonProp bfunc={()=>dispatch(increment())} 
          
           bclassN={`
-          h-[5rem] w-[1.8rem] rounded-r-full border-r-[0.6rem] border-yellow-400
+          h-[2rem] rounded-r-full  border-r-[1.9rem]
+           border-yellow-400
           shadow-lg shadow-black hover:shadow-xl hover:shadow-black
           hover:border-cyan-400
-          active:shadow-sm`}
+          active:shadow-none`}
           />
         </div>
       </div>  
